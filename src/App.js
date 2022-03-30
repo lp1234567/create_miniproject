@@ -7,7 +7,12 @@ import store from './reducers/index'
 import RouteMap from './router/routerMap'
 
 export default class App extends Component {
-  constructor(){}
+  constructor(){
+    super()
+    this.state ={
+      name: 'app'
+    }
+  }
   
   history = createBrowserHistory()
   render() {
