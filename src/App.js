@@ -10,7 +10,7 @@ export default class App extends Component {
   constructor(){
     super()
     this.state ={
-      name: 'test1'
+      name: 'test2'
     }
   }
   
